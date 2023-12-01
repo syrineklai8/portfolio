@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #770707;
+}
+
+body#index {
+    background-color: rgb(175, 182, 210);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header {
+    background-color: #bb1313;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #c55050;
+}
+
+/* Contact page styles */
+body#contact {
+    background-color: #fff;
+    img {
+        display: block;
+        margin: 20px auto; /* Centre l'image horizontalement avec une marge de 20px en haut et en bas */
+    }
+    p[style="color:rgb(25, 25, 220) font-family:italic;"] {
+        color: rgb(25, 25, 220);
+        font-style: italic;
+    }
+    nav a:hover {
+        background-color: #c55050;
+    }
+}
+
+/* Experience page styles */
+body#experience {
+    background-color: rgb(175, 182, 210);
+}
+
+/* Formation page styles */
+body#formation {
+    background-color: rgb(175, 182, 210);
+}
+
+/* Competence page styles */
+body#competence {
+    background-color: rgb(175, 182, 210);
+}
+
+.cadre {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* List styles */
+li {
+    margin-bottom: 8px;
+}
